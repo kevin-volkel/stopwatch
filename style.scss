@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Mono', monospace;
+}
+
+body{
+    width: 100vw;
+}
+
+#time{
+    margin-top: 5rem;
+    font-size: 6rem;
+}
+
+.container{
+    margin: 0 auto;
+    width: 25rem
+}
+
+.buttonContainer{
+    margin: 0 auto;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    button{
+        font-size: 1rem;
+        width: 10rem;
+        height: 2rem;
+        margin-top: 3rem;
+    }
+}
+
+.lap-times{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    height: 40vh;
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+    margin-top: 2rem;
+    li{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+    button{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 2.5rem;
+        outline: none;
+        margin-top: 2rem;
+    }
